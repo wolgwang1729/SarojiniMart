@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us and our aim</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .header {
+            display: grid;
+            margin: 0px;
+            grid-template-columns: 0.5fr 7fr 1fr;
+            background-color: rgb(21, 76, 121);
+            grid-column-gap: 320px;
+            height: 50px;
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+
+        }
+
+        .contactus {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+        }
+
+        #hlogo {
+            height: 40px;
+            width: 73px;
+        }
+
+        #hsl {
+            width: 30px;
+            height: 30px;
+
+            background-color: white;
+        }
+
+        #hs {
+            box-sizing: border-box;
+            width: 316px;
+            height: 30px;
+            border-radius: 10px;
+            padding: 15px;
+
+        }
+
+        #contactus button {
+            border-radius: 10px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            height: 35px;
+            background-color: blue;
+        }
+
+        .nav li {
+            display: inline-block;
+            padding-inline: 25px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav li a:hover,
+        .nav li a.active {
+            color: yellow;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: larger;
+
+        }
+
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+
+        .about-us-container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .about-us-header {
+            background-color: yellow;
+            color: red;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about-us-content {
+            text-align: justify;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="./logo.png" id="hlogo">
+
+        </div>
+        <div class="search">
+            <input type="text" id="hs" placeholder="Search here">
+            <img src="/icons8-search-100.png" id="hsl">
+
+        </div>
+        <div class="contactus">
+            <a href="/contactus.html"><button type="button" class="hsl" id="contactus button">Contact us</button></a>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="/Home.html">Home</a></li>
+            <li><a href="/offers.html">Offers</a></li>
+            <li><a href="/sellers.html">About Sellers</a></li>
+            <li><a href="/about us.html" class="active">About the Site and our Aim</a></li>
+        </ul>
+    </div>
+    <div class="about-us-container">
+        <h1 class="about-us-header">About Sajrojini Mart</h1>
+        <p class="about-us-content">
+            Sajrojini Mart is an online marketplace that connects buyers and sellers of clothes. We provide a platform
+            for sellers to showcase their products and reach a wider audience, while offering buyers a convenient and
+            affordable way to shop for clothes from the comfort of their homes.
+
+            Our mission is to make it easier than ever for people to find and purchase the clothes they love, at prices
+            they can afford. We believe that everyone should have access to quality clothing, regardless of their
+            budget.
+
+            We are committed to providing our customers with a positive shopping experience. We offer a wide variety of
+            clothing items to choose from, as well as a secure and easy-to-use online shopping platform. We also have a
+            team of customer service representatives who are always happy to help with any questions or concerns.
+
+            If you are looking for a great place to shop for clothes, we encourage you to visit Sajrojini Mart. We are
+            confident that you will find the perfect items to add to your wardrobe.
+        </p>
+    </div>
+
+</body>
+
+</html>

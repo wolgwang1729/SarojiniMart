@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellers</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .header {
+            display: grid;
+            margin: 0px;
+            grid-template-columns: 0.5fr 7fr 1fr;
+            background-color: rgb(21, 76, 121);
+            grid-column-gap: 320px;
+            height: 50px;
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+
+        }
+
+        .contactus {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+        }
+
+        #hlogo {
+            height: 40px;
+            width: 73px;
+        }
+
+        #hsl {
+            width: 30px;
+            height: 30px;
+
+            background-color: white;
+        }
+
+        #hs {
+            box-sizing: border-box;
+            width: 316px;
+            height: 30px;
+            border-radius: 10px;
+            padding: 15px;
+
+        }
+
+        #contactus button {
+            border-radius: 10px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            height: 35px;
+            background-color: blue;
+        }
+
+        .nav li {
+            display: inline-block;
+            padding-inline: 25px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav li a:hover,
+        .nav li a.active {
+            color: yellow;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: larger;
+
+        }
+
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+        .seller-card {
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            margin: auto;
+        }
+
+        .seller-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .seller-card h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .seller-card p {
+            font-size: 16px;
+        }
+        h1{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="./logo.png" id="hlogo">
+
+        </div>
+        <div class="search">
+            <input type="text" id="hs" placeholder="Search here">
+            <img src="/icons8-search-100.png" id="hsl">
+
+        </div>
+        <div class="contactus">
+            <a href="/contactus.html"><button type="button" class="hsl" id="contactus button">Contact us</button></a>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="/Home.html" >Home</a></li>
+            <li><a href="/offers.html">Offers</a></li>
+            <li><a href="/sellers.html" class="active">About Sellers</a></li>
+            <li><a href="/about us.html">About the Site and our Aim</a></li>
+        </ul>
+    </div>
+    <h1>Sellers from Sajrojini Market</h1>
+    <div class="seller-card">
+        <img src="https://www.dsource.in/sites/default/files/gallery/18636/3.jpg" alt="Seller Image">
+        <h3>Seller Name</h3>
+        <p>Shop Name</p>
+        <p>Contact Number: 9876543210</p>
+    </div>
+
+    <div class="seller-card">
+        <img src="https://navbharattimes.indiatimes.com/thumb/95758860/things-to-buy-sarojini-nagar-market-for-bridal-shopping-95758860.jpg?imgsize=270194&width=1200&height=900&resizemode=75" alt="Seller Image">
+        <h3>Seller Name 2</h3>
+        <p>Shop Name 2</p>
+        <p>Contact Number: 9543210765</p>
+    </div>
+
+    <div class="seller-card">
+        <img src="https://imgmedia.lbb.in/media/2022/06/62b3f9995fd88f0b1ad5371e_1655962009691.jpg" alt="Seller Image">
+        <h3>Seller Name 3</h3>
+        <p>Shop Name 3</p>
+        <p>Contact Number: 8796452310</p>
+    </div>
+</body>
+</html>
